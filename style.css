@@ -1,0 +1,87 @@
+
+/* navbar */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff4;
+}
+
+img {
+    width: 50px; 
+    padding: 5px;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid;
+    transition: all;
+    transition-duration: 300ms;
+}
+/* akhir style navbar */
+/* konten utama */
+body{
+    background-color: yellowgreen;
+}
+.penjelasan {
+    border: 1px solid;
+    background-color: blanchedalmond;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about {
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    margin-top: 15px;
+    background-color: #ff4;
+    padding: 5px;
+}
+.btn-1{
+    display: inline-block;
+    border: 1px solid;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #ff4;
+    color: blue;
+    margin-top: 10px;
+}
+.btn-2{
+    display: inline-block;
+    border: 1px solid;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #ff4;
+    color: blue;
+    margin-top: 10px;
+}
+/* akhir style konten utama*/
+/* style footer*/
+.footer{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* akhir style footer */
+

@@ -1,0 +1,58 @@
+/* style navbar */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff4;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: cadetblue;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid;
+    transition: all;
+    transition-duration: 300ms;
+}
+img{
+    width: 50px;
+    padding: 5px;
+}
+/* akhir style navbar */
+/* style register */
+body{
+    background-color: burlywood;
+}
+.register{
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+h2{
+    text-align: center;
+}
+p{
+    margin-bottom: 5px;
+    text-align: center;
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+}
+input{
+    padding: 5px;
+}
+#btn-register{
+    background-color: greenyellow;
+    width: 350px;
+}
+/* akhir style register */
